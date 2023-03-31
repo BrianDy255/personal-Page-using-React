@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/cards";
+import Card from "../components/cards.jsx";
 import data from "../src/data"
 
 function Travel() {
