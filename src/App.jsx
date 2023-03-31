@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Card from '../components/Cards'
+import Card from '../components/cards'
 import NavBar from "../components/navbar"
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import AboutMe from '../pages/aboutme'
@@ -8,6 +8,7 @@ import Home from "../pages/home"
 import Footer from '../components/footer'
 import MyPets from '../pages/pets'
 import Travel from '../pages/travel'
+import data from "../src/data"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,7 +38,6 @@ function App() {
       </Routes>
       </BrowserRouter>
       <Footer/>
-      {/* <Card/> */}
     </div>
   )
 }

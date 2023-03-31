@@ -1,10 +1,11 @@
 #root {
-  max-width: 1980px;
-  margin: 0;
+  max-width: 100vh;
+  max-height: 100vh;
   padding: 2rem;
-  top:5px;
+  top:51px;
   text-align: center;
 }
+
 
 
 .card {
@@ -15,21 +16,23 @@
   color: #888;
 }
 
+a {
+  gap: 40px;
+  padding: 0 40px;
+}
 .navbar {
   padding: 15px;
   background-color: #2B3A55;
-  display: flex;
   left: 50px;
   flex-direction: row;
   align-items: center;
-  gap: 50px;
   text-align: center;
   font-weight: 600;
   font-weight: bold;
 }
 
 body{
-  max-width: 1000px;
+  /* max-width: 1000px; */
   font-family: 'Newsreader', serif;
   /* font-size: large; */
   background-color: #FFF9F9;
@@ -42,7 +45,7 @@ h2 {
 }
 
 .profilepic{
-  width: 450px;
+  max-width: 50vh;
   align-self: center;
   /* display: block; */
   text-align: center;
@@ -63,6 +66,7 @@ li {
 footer {
   background-color: #2B3A55;
   color:white;
+  margin-top: 25px;
   display: flex;
   text-align: center;
   flex-direction:column;
@@ -76,7 +80,62 @@ footer >p {
 
 .footericons {
   width: 5%;
-
   color: rgb(236, 7, 7);
 
+}
+
+.travelpic {
+  /* width: 50vh; */
+  max-width: 70vh;
+  max-height: 100vh;
+  padding: 10px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.carddescription {
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+}
+
+.cardtitle{
+  font-family: 'Literata', serif;
+  font-weight: bold;
+}
+
+.petspic {
+  max-width: 80vh;
+  border-radius: 10px;
+  max-height: 80vh;
+}
+
+.slider {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  position: static;
+  top:50%;
+  right:32px;
+  font-size:3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: static;
+  top:50%;
+  right:32px;
+  font-size:3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }
