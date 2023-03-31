@@ -1,7 +1,25 @@
 import React from "react";
+import Card from "../components/cards";
+import data from "../src/data"
 
-export default function Travel() {
+function Travel() {
+    const cardData = data.map((item) => {
+        return <Card 
+          key={item.id}
+          item={item}
+    
+        />
+      })
+
     return (
-        <h1>Places I've been over the years</h1>
+        <div>
+            <h1>Around the World</h1>
+            <section>
+                {cardData}    
+            </section>
+        </div>
+        
     )
 }
+
+export default Travel;
