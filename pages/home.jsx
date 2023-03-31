@@ -5,7 +5,7 @@ function Home() {
         <main>
             <section>
         <h1> Welcome to the Brian Dy homepage </h1>
-        <img src="public/images/IMG_7497.jpg" className="profilepic"></img>
+        <img src="https://642744a59dfe1800086f28c3--candid-paprenjak-0ca4a2.netlify.app/public/images/IMG_7497.jpg" className="profilepic"></img>
             </section>
             <section>
                 <p>A personal project creating a home page providing some details about my life as well as practice using the React framework. Feel free to take a look around the website!</p>

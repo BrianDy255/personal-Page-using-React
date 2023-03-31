@@ -25,7 +25,7 @@ function ImageSlider({slides}) {
         {PetsData.map((slide,index) => {
             return (
                 <div className={index === current ? 'slide active' : 'slide'} key={index} >
-                    {index === current && (<img src={`public/images/pets/${slide.img}`} className='petspic'/>)}
+                    {index === current && (<img src={`https://642744a59dfe1800086f28c3--candid-paprenjak-0ca4a2.netlify.app/public/images/pets/${slide.img}`} className='petspic'/>)}
                     {index === current && (<h2>{slide.title}</h2>)}
                 </div>
 

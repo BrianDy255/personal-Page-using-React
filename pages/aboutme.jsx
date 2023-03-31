@@ -5,7 +5,7 @@ function AboutMe() {
         <main>
             <section>
                 <h1>Early History</h1>
-                <img src="public/images/IMG_20191214_113112.jpg" className="profilepic"></img>
+                <img src="https://642744a59dfe1800086f28c3--candid-paprenjak-0ca4a2.netlify.app/public/images/IMG_20191214_113112.jpg" className="profilepic"></img>
                 <p>Greetings! I was born in the Philippines and immigrated to the United States of America when I was about 4 years old. I grew up in California, where I spent most of my life. Initially got my degree in physical
                     therapy where I worked in various settings including outpatient rehab, hospital setting, neuro rehab, and home health. </p>
                 <h2>Hobbies and Interests</h2>
