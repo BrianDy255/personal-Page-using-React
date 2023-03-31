@@ -4,7 +4,7 @@ function Card(props) {
     return (
         <div >
             <p className="cardtitle">{props.item.title}</p>
-            <img src={`https://642744a59dfe1800086f28c3--candid-paprenjak-0ca4a2.netlify.app/public/images/travel/${props.item.coverImg}`} className="travelpic"/>
+            <img src={`https://github.com/BrianDy255/personal-Page-using-React/blob/main/public/images/travel/${props.item.coverImg}`} className="travelpic"/>
             <div className="carddescription">
                 <p>Location: {props.item.location}</p>
                 <p>Year Visited: {props.item.year}</p>
