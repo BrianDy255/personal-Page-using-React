@@ -25,7 +25,7 @@ function ImageSlider({slides}) {
         {PetsData.map((slide,index) => {
             return (
                 <div className={index === current ? 'slide active' : 'slide'} key={index} >
-                    {index === current && (<img src={`https://github.com/BrianDy255/personal-Page-using-React/blob/main/public/images/pets/${slide.img}`} className='petspic'/>)}
+                    {index === current && (<img src={`/images/pets/${slide.img}`} className='petspic'/>)}
                     {index === current && (<h2>{slide.title}</h2>)}
                 </div>
 
