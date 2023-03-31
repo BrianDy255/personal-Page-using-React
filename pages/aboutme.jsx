@@ -5,7 +5,7 @@ function AboutMe() {
         <main>
             <section>
                 <h1>Early History</h1>
-                <img src="https://github.com/BrianDy255/personal-Page-using-React/blob/main/public/images/IMG_20191214_113112.jpg" className="profilepic"></img>
+                <img src="/images/IMG_20191214_113112.jpg" className="profilepic"></img>
                 <p>Greetings! I was born in the Philippines and immigrated to the United States of America when I was about 4 years old. I grew up in California, where I spent most of my life. Initially got my degree in physical
                     therapy where I worked in various settings including outpatient rehab, hospital setting, neuro rehab, and home health. </p>
                 <h2>Hobbies and Interests</h2>
