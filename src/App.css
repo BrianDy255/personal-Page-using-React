@@ -1,0 +1,82 @@
+#root {
+  max-width: 1980px;
+  margin: 0;
+  padding: 2rem;
+  top:5px;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: #2B3A55;
+  display: flex;
+  left: 50px;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-weight: bold;
+}
+
+body{
+  max-width: 1000px;
+  font-family: 'Newsreader', serif;
+  /* font-size: large; */
+  background-color: #FFF9F9;
+
+}
+
+h2 {
+  font-family: 'Literata', serif;
+  font-weight: bold;
+}
+
+.profilepic{
+  width: 450px;
+  align-self: center;
+  /* display: block; */
+  text-align: center;
+}
+ 
+section {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-weight: 800;
+}
+
+footer {
+  background-color: #2B3A55;
+  color:white;
+  display: flex;
+  text-align: center;
+  flex-direction:column;
+  padding: 2%;
+}
+
+footer >p {
+  margin: 2px;
+  padding:1px;
+}
+
+.footericons {
+  width: 5%;
+
+  color: rgb(236, 7, 7);
+
+}
