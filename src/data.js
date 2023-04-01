@@ -48,7 +48,7 @@ export default [
         title: "One of the castle gardens in Vienna",
         description: "Imagine having a graden of this size. How many grounds keepers do you need?",
         coverImg: "_DSC5825.jpg",
-        location: "Columbia River Gorge, Vienna",
+        location: "Vienna",
         year: 2017,
 
     },
@@ -66,7 +66,7 @@ export default [
         title: "At the edge of the world off the coast of Portugal",
         description: "Taken at the western most tip of Portugal!",
         coverImg: "_DSC4618.jpg",
-        location: "Columbia River Gorge, Portugal",
+        location: "Portugal",
         year: 2017,
 
     },
